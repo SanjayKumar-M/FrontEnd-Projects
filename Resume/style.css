@@ -1,0 +1,74 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #070312, #3642cb);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .profile h2 {
+    font-size: 20px;
+    color: #f2f2f2;
+  }
+  
+  .about, .skills, .education, .contact {
+    margin-bottom: 20px;
+  }
+  
+  .about h3, .skills h3, .education h3, .contact h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about p, .skills ul, .education ul, .contact ul {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .skills ul, .education ul, .contact ul {
+    list-style-type: none;
+  }
+  
+  .skills li, .education li, .contact li {
+    margin-bottom: 5px;
+  }
+  
+  .contact li a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  .contact li a:hover {
+    text-decoration: underline;
+  }
+  
