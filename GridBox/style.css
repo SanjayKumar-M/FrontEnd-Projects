@@ -1,0 +1,254 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+    }
+    body{
+        height: 96vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 10% 82% 10%;
+        /* border: solid 5px black; */
+    }
+    header{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        grid-column: 1/3;
+        border: solid 5px black;
+        border-bottom: 0;
+    }
+    header ul{
+        padding-left: 10px;
+    }
+    header ul li{
+        display: inline-block;
+        list-style: none;
+        padding: 8px;
+        font-weight: bold;
+        background-color: white;
+        /* color: black; */
+    
+    }
+    section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 30% 70%;
+        border: solid 5px black;
+        background-color: #f5efdf;
+        border-bottom: 0;
+    }
+    section div h1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* width: 50%; */
+        font-size: 40px;
+        margin: 0;
+    
+    }
+    section div img{
+       object-fit: fill;
+    }
+    .images{
+        background-image: url('assets/img/author.img');
+        background-size: cover;
+        grid-column: 1/3;
+    }
+    .title{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        overflow: hidden;
+        margin: 0;
+        background-color: white;
+        border-right: solid 5px black;
+        border-bottom:solid  5px black;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 0px;
+    }
+    section div h2{
+        margin: 6%;
+    }
+    .design{
+        letter-spacing: 2px;
+    }
+    .your{
+        letter-spacing: 8px;
+    }
+    .life{
+        letter-spacing: 12px;
+    }
+    .podcast{
+        border-bottom:solid  5px black;
+        border-top: 0;
+        border-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: hidden;
+        line-height: 0;
+    }
+    .MainSideImage
+    {
+        /* border: 5px solid black; */
+        /* border-top: 0; */
+        grid-column: 1/3;
+        object-fit:contain; 
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .MainSideImage img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    section div h1{
+        margin: 0;
+        font-size: 32px;
+        line-height: 260%;
+    }
+    
+    
+    /* section-------> */
+    
+    aside{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 25% 25%;
+        border: solid 5px black;
+        background-color: #f5efdf;
+        border-left: 0;
+        border-bottom: 0;
+    
+    }
+    aside div u{
+        font-weight: bold;
+    }
+    .TheBook{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        border-bottom: solid 5px black;
+        grid-column: 1/3;
+        line-height: 340%;
+    
+    }
+    .BookImage
+    {
+        display: flex;
+        justify-content: center;
+        height: 70%;
+        width: 100%;
+    }
+    
+    .Synopsis{
+        border-right: solid 5px black;
+        grid-row: 2/4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        padding-top:10px;
+        font-weight: bold;
+    }
+    aside div span{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .Synopsis h2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        padding-top: 20px;
+    }
+    .Author{
+        border-bottom: solid 5px black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding-top: 10px;
+    }
+    
+    .Shop{
+        display: grid;
+        grid-template-columns: 25% 25% 50%;
+        grid-template-rows: 50% 50%;
+        
+    }
+    .ShopHeading{
+        grid-column: 3/4 ;
+        grid-row: 1/3;
+    }
+    aside div i{
+        background-color: white;
+    }
+    .EmailIcon, .TwitterIcon , .LinkedInIcon , .PinterestIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .EmailIcon{
+        border-bottom: solid 5px black;
+        border-right: solid 5px black;
+    }
+    .TwitterIcon
+    {
+        border-bottom: solid 5px black;
+        border-right: solid 5px black;
+    }
+    .LinkedInIcon
+    {
+        border-right: solid 5px black;
+    }
+    .PinterestIcon
+    {
+        border-right: solid 5px black;
+    
+    }
+    .ShopHeading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border: solid 5px black;
+        grid-column: 1/3;
+        background-color: #f5efdf;
+    }
+    .DesignBy{
+        border-right: solid 5px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size:12px ;
+    }
+    .ViewEvents{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+        /* display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column; */
