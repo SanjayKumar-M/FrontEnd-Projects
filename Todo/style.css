@@ -28,6 +28,53 @@ ul li{
     width: 100%;
 }
 
+.todo{
+    width: 100%;
+    max-width: 540px;
+    padding: 200px 200px;
+    margin:100px auto 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+.todo .search{
+    background: rgb(203, 190, 190);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.search input{
+    flex: 1;
+    border: none;
+    outline: none;
+   background: transparent;
+   color: black;
+   font-size: larger;
+   font-weight: 300;
+    padding: 10px;
+    border-radius:30px ;
+}
+.search button{
+    border:none ;
+    outline: none;
+    border-radius: 30px;
+    background: orangered;
+    padding: 10px 15px;
+    color:white;
+    font-size: larger;
+    font-weight: 700;
+    cursor:pointer;
+   
+}
+
+.tasks ul{
+    display: flex;
+}
+
+
 footer{
     background: #000;
     color :white;
