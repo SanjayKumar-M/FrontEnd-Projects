@@ -32,7 +32,7 @@ ul li {
     border-radius: 20px;
 }
 
-.todo .search {
+.todo .add {
     background: rgb(203, 190, 190);
     border-radius: 30px;
     display: flex;
@@ -42,7 +42,7 @@ ul li {
     margin-bottom: 25px;
 }
 
-.search input {
+.add input {
     flex: 1;
     border: none;
     outline: none;
@@ -54,7 +54,7 @@ ul li {
     border-radius: 30px;
 }
 
-.search button {
+.add button {
     border: none;
     outline: none;
     border-radius: 30px;
