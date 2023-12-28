@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0%;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
+
 
 
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -16,28 +16,23 @@ header{
     color: white;
 }
 
-ul li{
-   padding: 20px;
-   float: right;
+ul li {
+    padding: 20px;
+    float: right;
 }
 
-.container{
-   
-    background:linear-gradient(125deg,blue, green);
-    min-height: auto;
-    width: 100%;
-}
 
-.todo{
-    width: 100%;
-    max-width: 540px;
+
+.todo {
+
+    max-width: 500px;
     padding: 200px 200px;
-    margin:100px auto 20px;
-    background: white;
+    margin: 30px auto 40px;
+    background: rgb(248, 243, 243);
     border-radius: 20px;
 }
 
-.todo .search{
+.todo .search {
     background: rgb(203, 190, 190);
     border-radius: 30px;
     display: flex;
@@ -46,39 +41,42 @@ ul li{
     padding-left: 20px;
     margin-bottom: 25px;
 }
-.search input{
+
+.search input {
     flex: 1;
     border: none;
     outline: none;
-   background: transparent;
-   color: black;
-   font-size: larger;
-   font-weight: 300;
+    background: transparent;
+    color: black;
+    font-size: larger;
+    font-weight: 300;
     padding: 10px;
-    border-radius:30px ;
+    border-radius: 30px;
 }
-.search button{
-    border:none ;
+
+.search button {
+    border: none;
     outline: none;
     border-radius: 30px;
     background: orangered;
     padding: 10px 15px;
-    color:white;
+    color: white;
     font-size: larger;
     font-weight: 700;
-    cursor:pointer;
-   
+    cursor: pointer;
+
 }
 
-.tasks ul{
+.todo ul {
     display: flex;
+    flex-direction: column;
 }
 
 
-footer{
+footer {
     background: #000;
-    color :white;
+    color: white;
     display: flex;
-  
+    padding: 18px;
     justify-content: space-around;
 }
