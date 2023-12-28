@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0;
+    overflow-x: hidden;
+
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 12px;
+    background: rgb(24, 5, 43);
+    color: white;
+}
+
+.container{
+    width: 100%;
+    min-width: 100vh;
+    padding: 100px;
+    background:linear-gradient(125deg,blue, green);
+}
