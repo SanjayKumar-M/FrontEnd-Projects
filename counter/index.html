@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Stop watch</title>
 </head>
+
 <body>
-    <div class="container">
-        Hello
+    <div class="title">
+        Countdown Timer
+    </div>
+    <div class="headings">
+        <p class="headings-hours">Hours</p>
+        <p class="headings-minutes">Minutes</p>
+        <p class="headings-seconds">Seconds</p>
+    </div>
+    <div class="timings">
+        <input type="number" class="timings-hours" maxlength="2"
+            oninput="this.value = this.value.slice(0,this.maxLength)" placeholder="00"  min="0"/> <span>:</span>
+        <input type="number" class="timings-minutes" maxlength="2"
+            oninput="this.value = this.value.slice(0,this.maxLength)" placeholder="00" min="0"/> <span>:</span>
+        <input type="number" class="timings-seconds" maxlength="2"
+            oninput="this.value = this.value.slice(0,this.maxLength)" placeholder="00" min="0"/>
+
+    </div>
+    <div class="buttons">
+        <button>Start</button>
+        <button>Stop</button>
+        <button>Reset</button>
     </div>
 </body>
+
 </html>

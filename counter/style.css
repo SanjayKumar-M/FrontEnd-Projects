@@ -1,19 +1,51 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    
 }
 
-.container{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: blue;
-    width: 50%;
-    max-width: 540vh;
+    flex-direction: column;
+    height:85vh;
+    gap: 20px;
+}
+
+.title{
+    font-size:60px;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.headings{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size:xx-large;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headings p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
     
-    margin: 20% auto ;
+}
+
+.timings input {
+    border: none;
+    background: blanchedalmond;
+   
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+    
+
 }
 
