@@ -1,7 +1,3 @@
-# FrontEnd-Projects
+# Resonance
 
-Using 
-
-1.HTML
-2.CSS
-3.Vanilla Javascript
+``` Video to audio converter API ```
