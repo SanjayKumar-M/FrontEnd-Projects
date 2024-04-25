@@ -15,6 +15,8 @@ def main():
  
     connection = pika.BlockingConnection(pika.ConnectionParameters(host="rabbitmq"))
     channel = connection.channel()
+    
+    channel.queue_declare(queue=os.environ.get("VIDEO_QUEUE"), durable=True)
 
     def callback(ch, method, properties, body):
         err = to_mp3.start(body, fs_videos, fs_mp3s, ch)
