@@ -8,7 +8,7 @@ server = Flask(__name__)
 server.config["MONGO_URI"] = "mongodb://host.minikube.internal:27017/videos"
 
 mongo_video = PyMongo(server, uri="mongodb://host.minikube.internal:27017/videos")
-# mongo_mp3 = PyMongo(server, uri="mongodb://host.minikube.internal:27017/mp3s")
+# mongo_mp3 = PyMongo(server, uri="mongodb://host.minikube.internal:27017/mp3s") 
 mongo = PyMongo(server)
 fs = gridfs.GridFS(mongo.db)
 conection = pika.BlockingConnection(pika.ConnectionParameters("rabbitmq"))
