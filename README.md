@@ -6,8 +6,10 @@ Resonance is a video to audio converter application built using Python, Flask, M
 
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
+- [System Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
+
 
 
 ## Overview
@@ -23,6 +25,10 @@ Resonance aims to provide users with a simple yet powerful tool to convert video
 - Docker
 - Kubernetes
 - RabbitMQ
+
+## architecture
+![Resonance Logo](https://github.com/SanjayKumar-M/resonance/blob/main/resonance.png)
+
 
 ## Installation
 
