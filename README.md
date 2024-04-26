@@ -8,8 +8,7 @@ Resonance is a video to audio converter application built using Python, Flask, M
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
