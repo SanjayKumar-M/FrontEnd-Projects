@@ -73,6 +73,6 @@ Resonance aims to provide users with a simple yet powerful tool to convert video
    - Open a web browser and navigate to http://localhost:5000.
    - This will access the gateway service, which serves as the entry point to the application.
 
-
+`Important: Repeat the steps for all the services and configure the rabbitmq in your localhost `
 
 Feel free to customize this template to fit the specifics of your project and add more detailed instructions or information as needed!
