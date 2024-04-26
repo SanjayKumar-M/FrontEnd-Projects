@@ -27,7 +27,8 @@ Resonance aims to provide users with a simple yet powerful tool to convert video
 - RabbitMQ
 
 ## architecture
-![Resonance Logo](https://github.com/SanjayKumar-M/resonance/blob/main/resonance.png)
+
+![Resonance Logo](https://github.com/SanjayKumar-M/resonance/blob/main/resonance_architecture.png)
 
 
 ## Installation
